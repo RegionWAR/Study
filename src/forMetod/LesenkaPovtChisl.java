@@ -1,8 +1,8 @@
-/*Выведите "лесенку" из членов последовательности из предыдущего шага от единицы до n, n > 0*/
-import  java.util.*;
+package forMetod;
 
-public class Main {
+import java.util.Scanner;
 
+public class LesenkaPovtChisl {
     public  static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
@@ -17,7 +17,7 @@ public class Main {
 
             }
             if (i < n) System.out.println("");
+            input.close();
         }
     }
-
 }
