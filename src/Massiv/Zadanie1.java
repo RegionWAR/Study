@@ -16,7 +16,7 @@ public class Zadanie1 {
         int[] massiv = new int[n];
         for (int i = 2; i <= n; i += 2) {
             massiv[a] = i;
-            if (i != n ) System.out.print(i + " ");
+            if (i != n && i != (n - 1) ) System.out.print(i + " ");
             else System.out.print(i);
             b += i;
             a++;
