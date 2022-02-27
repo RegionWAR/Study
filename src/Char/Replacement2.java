@@ -45,6 +45,7 @@ public class Replacement2 {
         for (int i = 0; i < books.length; i++){                        //Finish
             System.out.print(books[i] + "\n");
         }
+        in.close();
 
     }
 }
